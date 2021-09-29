@@ -6,11 +6,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { LoginComponent } from './login/login.component';
+import { SiginupComponent } from './siginup/siginup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    LoginComponent,
+    SiginupComponent
   ],
   imports: [
     BrowserModule,
